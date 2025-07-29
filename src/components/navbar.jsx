@@ -9,7 +9,7 @@ const navbar = () => {
         <div>|</div>
         <ul className="flex gap-5">
             <li className="cursor-pointer hover:text-blue-600">Home</li>
-            <li className="cursor-pointer hover:text-blue-600 hover:text-xl transition-all duration-200">Contact</li>
+            <li className="cursor-pointer hover:text-blue-600">Contact</li>
         </ul>
         </div>
     </nav>
