@@ -80,7 +80,7 @@ function App() {
               type="text"
             />
             <button
-              className="bg-violet-500 hover:bg-white rounded-lg py-1 px-2  active:bg-blue-800 text-amber-50 font-bold w-full"
+              className="bg-violet-500 hover:bg-purple-800 rounded-lg py-1 px-2  active:bg-blue-800 text-amber-50 font-bold w-full"
               onClick={handleAdd}
             >
               Save
@@ -103,13 +103,13 @@ function App() {
                 </div>
                 <div className="buttons flex h-full">
                   <button
-                    className="bg-violet-500 hover:bg-white rounded-lg py-1 px-2 mx-1 active:bg-blue-800 text-amber-50 font-bold"
+                    className="bg-violet-500 hover:bg-purple-800 rounded-lg py-1 px-2 mx-1 active:bg-blue-800 text-amber-50 font-bold"
                     onClick={(e)=>handleEdit(e,item.id)}
                   >
                     EDIT
                   </button>
                   <button
-                    className="bg-violet-500 hover:bg-white rounded-lg py-1 px-2 active:bg-blue-800 text-amber-50 font-bold"
+                    className="bg-violet-500 hover:bg-purple-800 rounded-lg py-1 px-2 active:bg-blue-800 text-amber-50 font-bold"
                     onClick={(e)=>{handleDelete(e,item.id)}}
                   >
                     DELETE
